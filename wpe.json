@@ -1,0 +1,17 @@
+{
+  "name": "My-First-Headless-App",
+  "repo": "Craig-Harkness/testrepo",
+  "environments": [
+    {
+      "name": "Production",
+      "branch": "main",
+      "wp_environment_name": "chkdev",
+      "secrets": [
+        {
+          "key": "WP_URL",
+          "value": "https://yoururl"
+        }
+      ]
+    }
+  ]
+}
